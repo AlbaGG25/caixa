@@ -77,6 +77,29 @@ html {
     }
     .main_article-cta{
         font-size: 1.2rem;
+        margin-block: 2rem;
+    }
+    
+}
+@media screen and (min-width: 1200px){
+    .main{
+        margin-inline: 14rem;
+    }
+    .main_article{
+        margin-inline: 5rem;
+        gap: 2rem;
+    }
+    .main_article-title{
+        font-size: 3.2rem;
+        margin-inline: 13rem;
+    }
+    .main_article-p{
+        font-size: 1.7rem;
+        margin-inline: 7rem;
+        line-height: 3rem;
+    }
+    .main_article-cta{
+        font-size: 1.5rem;
     }
     
 }
@@ -136,6 +159,16 @@ html {
         padding-block: 0.1rem;
     }
 }
+@media screen and (min-width: 768px){
+    .app{
+        margin-block: 8rem;
+        gap:3rem;
+    }
+    .app_title{
+        font-size: 1.5rem;
+    }
+   
+}
 
 .foot{
     text-align: center;
@@ -157,6 +190,16 @@ html {
 @media screen and (min-width: 768px){
     .foot{
         margin-block: 2rem;
+    }
+    .foot_logo-img{
+        width: 20vw;
+    }
+    
+}
+@media screen and (min-width: 1200px){
+    .foot{
+        margin-block: 4rem;
+        font-size: 1rem;
     }
     .foot_logo-img{
         width: 20vw;

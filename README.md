@@ -2,6 +2,6 @@
 
 Caixa Forum maquetación.
 
-** Realizado con: **
+## Realizado con: ##
 - HTML
 - CSS

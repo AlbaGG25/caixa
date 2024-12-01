@@ -115,27 +115,32 @@ html {
     object-fit: cover;
 }
 .applestore{
-    padding-block: 0.3rem;
+    padding-block: 0.1rem;
 }
 @media screen and (min-width: 768px){
     .app{
         margin-block: 5rem;
+        gap:3rem;
     }
     .app_title{
         font-size: 1.5rem;
     }
+    .app_logo{
+        gap: 0.7rem;
+    }
     .app_logo-box{
-        max-height: 6rem; 
-        max-width: 16rem;
+        max-height: 3rem; 
+        max-width: 10rem;
     }
     .applestore{
-        padding-block: 0.6rem;
+        padding-block: 0.1rem;
     }
 }
 
 .foot{
     text-align: center;
     font-size: 0.6rem;
+    margin-block: 1rem;
 }
 .foot_logo{
     display: flex;

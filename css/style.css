@@ -10,7 +10,7 @@ html {
 
 .main{
     background-color: rgba(190, 149, 190, 0.7);
-    margin-inline: 1rem;
+    margin-inline: 2rem;
     padding: 1rem;
     display: flex;
     flex-direction: column;
@@ -67,8 +67,8 @@ html {
         gap: 2rem;
     }
     .main_article-title{
-        font-size: 2rem;
-        margin-inline: 8rem;
+        font-size: 2.2rem;
+        margin-inline: 9rem;
     }
     .main_article-p{
         font-size: 1.3rem;

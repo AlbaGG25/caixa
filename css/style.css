@@ -103,6 +103,28 @@ html {
     }
     
 }
+@media screen and (min-width: 1440px){
+    .main{
+        margin-inline: 16rem;
+    }
+    .main_article{
+        margin-inline: 7rem;
+        gap: 3rem;
+    }
+    .main_article-title{
+        font-size: 3.5rem;
+        margin-inline: 14rem;
+    }
+    .main_article-p{
+        font-size: 1.9rem;
+        margin-inline: 9rem;
+        line-height: 4rem;
+    }
+    .main_article-cta{
+        font-size: 1.7rem;
+    }
+    
+}
 
 .app{
     display: flex;
@@ -159,14 +181,12 @@ html {
         padding-block: 0.1rem;
     }
 }
-@media screen and (min-width: 768px){
+@media screen and (min-width: 1200px){
     .app{
         margin-block: 8rem;
         gap:3rem;
     }
-    .app_title{
-        font-size: 1.5rem;
-    }
+
    
 }
 
@@ -200,9 +220,6 @@ html {
     .foot{
         margin-block: 4rem;
         font-size: 1rem;
-    }
-    .foot_logo-img{
-        width: 20vw;
     }
     
 }

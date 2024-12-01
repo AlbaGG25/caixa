@@ -102,8 +102,8 @@ html {
     margin-inline: 1rem;
 }
 .app_logo-box{
-    max-height: 3rem; 
-    max-width: 7rem;
+    max-height: 2rem; 
+    max-width: 6rem;
     display:flex;
     justify-content: center;
     align-items: center;
@@ -114,6 +114,9 @@ html {
     height: 100%;
     object-fit: cover;
 }
+.applestore{
+    padding-block: 0.3rem;
+}
 @media screen and (min-width: 768px){
     .app{
         margin-block: 5rem;
@@ -122,8 +125,11 @@ html {
         font-size: 1.5rem;
     }
     .app_logo-box{
-        max-height: 5rem; 
-        max-width: 12rem;
+        max-height: 6rem; 
+        max-width: 16rem;
+    }
+    .applestore{
+        padding-block: 0.6rem;
     }
 }
 

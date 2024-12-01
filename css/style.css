@@ -37,10 +37,12 @@ html {
 .main_article-title{
     font-family: Georgia, serif;
     font-weight: 300;
+    font-size: 1.5rem;
     margin: 1rem;
 }
 .main_article-p{
     font-family: Arial, sans-serif;
+    font-size: 1.2rem;
     line-height: 1.5rem;
     margin-inline: 1rem;
 }
